@@ -1,0 +1,26 @@
+{
+  "name": "event-sourcing",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Jonathan Lietzau",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "source-map-support": "^0.5.19"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.26",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.1",
+    "typescript": "^4.1.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "watch": "tsc -w --preserveWatchOutput"
+  }
+}

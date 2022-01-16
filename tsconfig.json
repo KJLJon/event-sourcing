@@ -1,0 +1,9 @@
+{
+  "include": ["src/**/*.ts", "src/**/*.js"],
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist/",
+  }
+}
